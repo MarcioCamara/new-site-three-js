@@ -2,112 +2,126 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8" />
-	<link rel="icon" type="image/svg+xml" href="favicon.svg" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Home | Marcio Câmara</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Marcio Câmara</title>
 </head>
 
 <body>
-	<canvas id="main-canvas"></canvas>
+    <canvas id="main-canvas"></canvas>
 
-	<main>
+    <div class="toggle-container">
+        <input class="tgl tgl-skewed" id="cb3" type="checkbox" />
+        <label class="tgl-btn" data-tg-off="OFF" data-tg-on="ON" for="cb3"></label>
 
-		<header>
-			<h1>marcio câmara</h1>
-			<p>👨🏽‍💻 bem-vindo ao meu site! 🚀</p>
-		</header>
+        <span class="toggle-info">👈🏽 desligue o texto para controlar a câmera com o arrastar do mouse</span>
+    </div>
 
+    <main id="main">
+        <header>
+            <h1>marcio câmara</h1>
+            <p>👨🏽‍💻 bem-vindo ao meu site!</p>
 
-		<blockquote>
-			<p>gosto de desenvolver coisas e mostrar na web!</p>
-		</blockquote>
+            <!-- <p class="text-small">(desligue os textos para rotacionar livremente a câmera usando o mouse)</p> -->
+        </header>
 
-		<section>
-			<h2>🖖🏽 sobre mim</h2>
+        <blockquote>
+            <p>gosto de desenvolver coisas e mostrar na web!</p>
+        </blockquote>
 
-			<p>
-				<span id="age"></span> anos, casado, pai, desenvolvedor front-end, amante de tecnologia, entusiasta JS,
-				book-worm, viciado em cursos e animes 😄;
-			</p>
+        <section>
+            <h2>🖖🏽 sobre mim</h2>
 
-			<p>
-				segundo minha mãe, eu
-			</p>
+            <p>
+                <span id="age"></span> anos, casado, pai, desenvolvedor front-end, amante de tecnologia, entusiasta JS, book-worm, viciado em cursos e animes 😄;
+            </p>
 
-			<p>
-				segundo minha esposa, eu
-			</p>
+            <p>
+                tenho um gosto musical bem variado, desde <a target="_blank" href="https://www.youtube.com/watch?v=RRKXQE52l2Q&ab_channel=GNNG">yellow days</a> até <a target="_blank" href="https://www.youtube.com/watch?v=DqTeGt6ZHQs&ab_channel=MetalBladeRecordsMetalBladeRecordsVerificado">cannibal corpse</a>,
+                passando por <a target="_blank" href="https://www.youtube.com/watch?v=hMAPyGoqQVw&ab_channel=twentyonepilotstwentyonepilotsVerificado">twenty one pilots</a> e <a target="_blank" href="https://www.youtube.com/watch?v=mEtpJnx6gQ8&ab_channel=BlackMetal%2FMusicPromotionsBlackMetal%2FMusicPromotions">Батюшка</a>,
+                <a target="_blank" href="https://www.youtube.com/watch?v=Y6tDdjOmsCY">ic3peak</a> e <a target="_blank" href="https://www.youtube.com/watch?v=ADlGkXAz1D0&ab_channel=LittleBigLittleBigCanaloficialdoartista">little big</a>, <a target="_blank"
+                    href="https://www.youtube.com/watch?v=tZ3KObtDaGw&ab_channel=IgorrrIgorrrCanaloficialdoartista">igorrr</a> e <a target="_blank" href="https://www.youtube.com/watch?v=Wi8gfetK1og&ab_channel=DieAntwoordDieAntwoordCanaloficialdoartista">die antwoord</a>...
+                enfim... (me chama um dia pra falar sobre música e eu te mostrar tudo kkkkkk)
+            </p>
 
-			<p>
-				segundo minha filha, eu
-			</p>
-		</section>
+            <p>
+                🦸‍♀️ segundo wandinha (minha mãe): "é um cara super inteligente, às vezes um pouco inseguro mas, se sente confiança, se transforma em um líder. tem um coração muito bom e é, com certeza, um amigo e conselheiro maravilhoso. sempre tem solução pra problemas
+                que às vezes não enxergamos. enfim, quem tem a amizade desse cara pode se considerar a pessoa mais sortuda da terra";
+            </p>
 
-		<section class="light">
-			<h2>📐 projetos</h2>
+            <p>
+                👸🏾 segundo ferzão (minha esposa): "";
+            </p>
 
-			<p>
-				minha paixão por programação e por descobrir coisas novas me leva a desenvolver diversos projetos,
-				<span class="text-line-through">alguns deles de utilidade bem duvidosa kkkkk</span> os quais podem ser
-				vistos no meu <a href="https://github.com/MarcioCamara/">github</a>; confere lá!
-			</p>
+            <p>
+                🐸 segundo xipí (minha filha adolescente): "não sei pai, depois eu falo";
+            </p>
+        </section>
 
-			<h2>🏆 conquistas</h2>
+        <section class="light">
+            <h2>📐 projetos</h2>
 
-			<p>
-				nesses diversos anos de labuta, estudo, projetos <span class="text-line-through">totalmente
-					malucos</span> e suor, conquistei um ótimo emprego focado na minha área de paixão que é o front-end
-				em uma start-up em ascensão na qual me sinto confortável para executar meu propósito e na qual sinto que
-				faço a diferença e sou prestigiado, uma esposa maravilhosa que faz de tudo por nossa família, a
-				liberdade pra ser quem eu realmente sou, alguns certificados (aproveita e visita meu <a
-					href="https://www.linkedin.com/in/marcio-ferreira-c%C3%A2mara-jr-91870111b/">linked-in</a>)...<br />
-				mas, é claro, ainda há muito por vir!
-			</p>
+            <p>
+                minha paixão por programação e por descobrir coisas novas me leva a desenvolver diversos projetos,
+                <span class="text-line-through">alguns deles de utilidade bem duvidosa kkkkk</span> os quais podem ser vistos no meu <a target="_blank" href="https://github.com/MarcioCamara/">github</a>; confere lá!
+            </p>
 
-		</section>
+            <h2>🏆 conquistas</h2>
 
-		<blockquote>
-			<p>nós pensamos de mais e sentimos de menos <br> <span class="quote-author">charles chaplin, o grande
+            <p>
+                nesses diversos anos de labuta, estudo, projetos <span class="text-line-through">totalmente
+					malucos</span> e suor, conquistei um ótimo emprego focado na minha área de paixão que é o front-end em uma start-up em ascensão na qual me sinto confortável para executar meu propósito e na qual sinto que faço a diferença e sou prestigiado, uma esposa
+                maravilhosa que faz de tudo por nossa família, a liberdade pra ser quem eu realmente sou, alguns certificados (aproveita e visita meu <a target="_blank" href="https://www.linkedin.com/in/marcio-ferreira-c%C3%A2mara-jr-91870111b/">linked-in</a>)...<br
+                /> mas, é claro, ainda há muito por vir!
+            </p>
+
+        </section>
+
+        <blockquote>
+            <p>nós pensamos de mais e sentimos de menos <br> <span class="quote-author">charles chaplin, o grande
 					ditador (1940)</span></p>
-		</blockquote>
+        </blockquote>
 
-		<section class="left">
-			<h2>💼 histórico profissional</h2>
+        <section class="left">
+            <h2>💼 histórico profissional</h2>
 
-			<h3>McDonalds</h3>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-				ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-				fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-				deserunt mollit anim id est laborum.
-			</p>
-			<h3>Burger King</h3>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-				ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-				fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-				deserunt mollit anim id est laborum.
-			</p>
-			<h3>Taco Bell</h3>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-				ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-				fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-				deserunt mollit anim id est laborum.
-			</p>
+            <h3>ago/2019 - set/2020 - mkdata softwares</h3>
+            <p>desenvolvedor junior III</p>
+            <p>
+                na <a target="_blank" href="https://mkdata.com.br/">mk</a>, trabalhei no desenvolvimento de dois sistemas proprietários. um sendo da área da saúde e o outro um CRM. ambos os sistemas eram escritos em <a target="_blank" href="https://pt.wikipedia.org/wiki/Adobe_Flex">adobe flex</a>                e, com o fim do suporte ao <a target="_blank" href="https://pt.wikipedia.org/wiki/Adobe_Flash">flash</a> pelos principais navegadores, era preciso portar todos sistemas para uma linguagem mais recente. para tal, foi decidido usar o
+                <a
+                    target="_blank" href="https://angular.io/">angular</a> e por isso fui contratado. como era full-stack, fiz bastante uso de linguagens que implicam no desenvolvimento front-end em angular (<a target="_blank" href="https://pt.wikipedia.org/wiki/JavaScript">js</a>, <a target="_blank"
+                        href="https://pt.wikipedia.org/wiki/HTML">html</a>,
+                    <a target="_blank" href="https://pt.wikipedia.org/wiki/Cascading_Style_Sheets">css</a>, <a target="_blank" href="https://pt.wikipedia.org/wiki/TypeScript">ts</a>, etc) e também de <a target="_blank" href="https://pt.wikipedia.org/wiki/PL/SQL">pl/sql</a>,
+                    <a target="_blank" href="https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)">java</a> e versionamento utilizando
+                    <a target="_blank" href="https://pt.wikipedia.org/wiki/Git">git</a> e <a target="_blank" href="https://pt.wikipedia.org/wiki/Subversion">svn</a>;
+            </p>
 
-		</section>
+            <h3>ago/2018 - jun/2019 - aigen soluções digitais</h3>
+            <p>desenvolvedor web</p>
+            <p>
+                a <a target="_blank" href="https://www.aigen.com.br/">aigen</a> foi meu primeiro emprego efetivamente como programador (agradeço ao <a target="_blank" href="https://www.linkedin.com/in/rafael-rosario-b7429b88/">Rafael Rosário</a> pela
+                oportunidade) e fazíamos sistemas sob medida para clientes diretamente e para agências, outras softwarehouses, etc. lá aprendi muita coisa. meus primeiros contatos (e conhecimentos que ainda carrego) com <a target="_blank" href="https://pt.wikipedia.org/wiki/PHP">php</a>,
+                <a target="_blank" href="https://pt.wikipedia.org/wiki/Laravel">laravel</a> e <a target="_blank" href="https://pt.wikipedia.org/wiki/CakePHP">cakephp</a> aconteceram lá.
+            </p>
 
-		<blockquote>
-			<p>Thanks for watching!</p>
-		</blockquote>
-	</main>
+            <h3>set/2013 - ago/2018 - claro brasil S.A.</h3>
+            <p>analista de backoffice I</p>
+            <p>
+                entrei no mundo da tecnologia e "peguei gosto pela coisa" na net (atual <a target="_blank" href="https://www.claro.com.br/">claro</a>). lá fiquei por 5 anos e tive 3 cargos e diversas funções. comecei com atendimento reativo ao cliente,
+                tentando resolver todo e qualquer problema que ele pudesse ter (ou encaminhando pra quem pudesse). poucos meses depois fui promovido pra atendimento ativo, cuidando de diversos assuntos no que era chamado de "nível 2" (o tipo de solicitação
+                que exigia maior conhecimento dos sistemas, processos, etc), e em seguida fui promovido a analista backoffice I, cargo no qual gerava e mantinha diversos relatórios diários e com deadlines restritos pra clientes internos e pra alta-gerência;
+                como o volume de dados era equivalente aos clientes de todo o país, tive meus primeiros contatos com automação (usando <a target="_blank" href="https://pt.wikipedia.org/wiki/Visual_Basic_for_Applications">vba</a>, <a target="_blank" href="https://pt.wikipedia.org/wiki/Auto_Hot_Key">autohotkey</a>                e comandos do terminal do windows) e com manuseio de dados usando <a target="_blank" href="https://pt.wikipedia.org/wiki/MySQL">mysql</a>;
+            </p>
+        </section>
 
-	<script type="module" src="/main.js"></script>
+        <blockquote>
+            <p>acho que é isso! obrigado por ler até aqui e hidrate-se 🥤</p>
+        </blockquote>
+    </main>
+
+    <script type="module" src="/main.js"></script>
 </body>
 
 </html>
