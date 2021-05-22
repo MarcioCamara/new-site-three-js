@@ -1,6 +1,6 @@
 import './style.css'
 import './toggle.css'
-import * as THREE from 'three';
+import * as THREE from './three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
 document.getElementById('age').innerHTML = `${Math.floor((new Date() - new Date(1991, 9, 21)) / (365 * 24 * 60 * 60 * 1000))}`;
